@@ -3,14 +3,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #d3ded9;
+    background-color: #afb7f0;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #70827a;
+    background-color: #06189e;
     color: white;
     padding: 10px 20px;
 }
