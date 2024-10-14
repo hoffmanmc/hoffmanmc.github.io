@@ -1,3 +1,4 @@
+/* TODO: add captcha / contact form.*/
 class Contact extends HTMLElement {
     constructor() {
         super();
