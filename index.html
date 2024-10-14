@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple SPA with Tabs</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="left">
+            <a href="#about" class="tab-link">about me</a>
+        </div>
+        <ul>
+            <li><a href="#cv" class="tab-link">cv</a></li>
+            <li><a href="#blog" class="tab-link">blog</a></li>
+            <li><a href="#contact" class="tab-link">contact</a></li>
+        </ul>
+    </nav>
+  <div id="content" class="content">
+    <!-- Content Sections -->
+    <div id="aboutme" class="section">
+      <about-me></about-me>
+    </div>
+
+    <div id="cv" class="section">
+        <h2>CV</h2>
+        <p>This is the CV section. Add your professional experience, education, and skills here.</p>
+    </div>
+
+    <div id="blog" class="section">
+      <img src="./assets/images/construction.gif" alt="Under Construction GIF" width="400">
+    </div>
+
+    <div id="contact" class="section">
+        <h2>Contact</h2>
+        <p>This is the Contact section. Add your contact information or a form here.</p>
+    </div>
+  </div>
+  <script src="./assets/js/web-components/aboutme.js"></script>
+  <script src="./assets/js/tabs.js"></script>
+
+</body>
+</html>
+
