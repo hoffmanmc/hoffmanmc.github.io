@@ -11,35 +11,40 @@
     <!-- Navbar -->
     <nav>
         <div class="left">
-            <a href="#about" class="tab-link">about me</a>
+            <a href="#about" class="tab-link" data-content="aboutme">about me</a>
         </div>
         <ul>
-            <li><a href="#cv" class="tab-link">cv</a></li>
-            <li><a href="#blog" class="tab-link">blog</a></li>
-            <li><a href="#contact" class="tab-link">contact</a></li>
+            <li><a href="#cv" class="tab-link" data-content="cv">cv</a></li>
+            <li><a href="#blog" class="tab-link" data-content="blog">blog</a></li>
+            <li><a href="#contact" class="tab-link" data-content="contact">contact</a></li>
         </ul>
     </nav>
-  <div id="content" class="content">
-    <!-- Content Sections -->
-    <div id="aboutme" class="section">
-      <about-me></about-me>
+
+    <sections></sections>
+    <div id="content" class="content">
+      <!-- Content Sections -->
+      <div id="aboutme" class="section">
+        <about-me></about-me>
+      </div>
+
+      <div id="cv" class="section">
+        <cv></cv> 
+      </div>
+
+      <div id="blog" class="section">
+        <blog></blog>
+      </div>
+
+      <div id="contact" class="section">
+        <contact></contact>
+      </div>
     </div>
 
-    <div id="cv" class="section">
-        <h2>CV</h2>
-        <p>This is the CV section. Add your professional experience, education, and skills here.</p>
-    </div>
-
-    <div id="blog" class="section">
-      <img src="./assets/images/construction.gif" alt="Under Construction GIF" width="400">
-    </div>
-
-    <div id="contact" class="section">
-        <h2>Contact</h2>
-        <p>This is the Contact section. Add your contact information or a form here.</p>
-    </div>
-  </div>
+  <script src="./assets/js/web-components/sections.js"></script>
   <script src="./assets/js/web-components/aboutme.js"></script>
+  <script src="./assets/js/web-components/cv.js"></script>
+  <script src="./assets/js/web-components/blog.js"></script>
+  <script src="./assets/js/web-components/contact.js"></script>
   <script src="./assets/js/tabs.js"></script>
 
 </body>
