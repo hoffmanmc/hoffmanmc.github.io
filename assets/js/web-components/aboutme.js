@@ -24,5 +24,5 @@ class AboutMe extends HTMLElement {
 }
 
 // Register the custom element
-customElements.define('about-me', AboutMe);
+customElements.define('wc-aboutme', AboutMe);
 

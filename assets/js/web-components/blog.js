@@ -24,5 +24,5 @@ class Blog extends HTMLElement {
 }
 
 // Register the custom element
-customElements.define('blog', Blog);
+customElements.define('wc-blog', Blog);
 

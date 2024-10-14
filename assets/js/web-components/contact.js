@@ -24,5 +24,5 @@ class Contact extends HTMLElement {
 }
 
 // Register the custom element
-customElements.define('contact', Contact);
+customElements.define('wc-contact', Contact);
 
