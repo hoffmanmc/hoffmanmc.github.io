@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <style>body {visibility: hidden;}</style>
+    <link 
+      rel="stylesheet" 
+      href="assets/css/style.css"
+      onload="document.body.style.visibility = 'visible';">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple SPA with Tabs</title>
+    <title>Max Hoffman</title>
 </head>
 <body>
-
-    <!-- Navbar -->
   <nav>
     <div class="left">
       <a href="#about" class="tab-link" data-content="aboutme">about me</a>
@@ -24,7 +28,18 @@
     <wc-sections></wc-sections>
   </div>
 
-  <script src="./assets/js/loadComponents.js" type="module"></script>
+  <!-- 
+    I'd load the below from one file, 
+      but doing so gives CORS errors when developing locally.
+  
+    I don't want to run a webserver when making edits,
+      so here you go! 
+  -->
+  <script src="./assets/js/web-components/aboutme.js" defer></script>
+  <script src="./assets/js/web-components/blog.js" defer></script>
+  <script src="./assets/js/web-components/contact.js" defer></script>
+  <script src="./assets/js/web-components/cv.js" defer></script>
+  <script src="./assets/js/web-components/sections.js" defer></script>
 </body>
 </html>
 

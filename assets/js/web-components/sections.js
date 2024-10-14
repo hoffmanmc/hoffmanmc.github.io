@@ -4,9 +4,9 @@ class Sections extends HTMLElement {
         this.attachShadow({ mode: 'open' });
         this.container = document.createElement('div');
         this.shadowRoot.appendChild(this.container);
+        this.setContent();
     }
 
-    // Method to update content based on the link clicked
     setContent(content) {
         switch (content) {
             case 'aboutme':
