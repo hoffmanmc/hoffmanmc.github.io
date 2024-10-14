@@ -4,7 +4,7 @@ class Blog extends HTMLElement {
         const shadow = this.attachShadow({ mode: 'open' });
 
         const container = document.createElement('div');
-        container.innerHTML = `<h2>Web Component Content</h2>
+        container.innerHTML = `<h2>Blog</h2>
                                <p>This is the content loaded in the web component.</p>`;
 
         // Style (optional)
