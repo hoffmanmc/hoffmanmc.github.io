@@ -9,28 +9,22 @@
 <body>
 
     <!-- Navbar -->
-    <nav>
-        <div class="left">
-            <a href="#about" class="tab-link" data-content="aboutme">about me</a>
-        </div>
-        <ul>
-            <li><a href="#cv" class="tab-link" data-content="cv">cv</a></li>
-            <li><a href="#blog" class="tab-link" data-content="blog">blog</a></li>
-            <li><a href="#contact" class="tab-link" data-content="contact">contact</a></li>
-        </ul>
-    </nav>
-
-    <div id="content" class="content">
-      <wc-sections></wc-sections>
+  <nav>
+    <div class="left">
+      <a href="#about" class="tab-link" data-content="aboutme">about me</a>
     </div>
+    <ul>
+      <li><a href="#cv" class="tab-link" data-content="cv">cv</a></li>
+      <li><a href="#blog" class="tab-link" data-content="blog">blog</a></li>
+      <li><a href="#contact" class="tab-link" data-content="contact">contact</a></li>
+    </ul>
+  </nav>
 
-  <script src="./assets/js/web-components/sections.js"></script>
-  <script src="./assets/js/web-components/aboutme.js"></script>
-  <script src="./assets/js/web-components/cv.js"></script>
-  <script src="./assets/js/web-components/blog.js"></script>
-  <script src="./assets/js/web-components/contact.js"></script>
-  <script src="./assets/js/tabs.js"></script>
+  <div id="content" class="content">
+    <wc-sections></wc-sections>
+  </div>
 
+  <script src="./assets/js/loadComponents.js" type="module"></script>
 </body>
 </html>
 
