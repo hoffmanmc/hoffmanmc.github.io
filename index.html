@@ -6,10 +6,7 @@
       rel="stylesheet" 
       href="assets/css/style.css"
       onload="document.body.style.visibility = 'visible';">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="manifest" href="/site.webmanifest" />    
+    <link rel="icon" type="image/ico" href="/favicon.ico" />
     <title>Max Hoffman</title>
 </head>
 <body>
@@ -28,18 +25,7 @@
     <wc-sections></wc-sections>
   </div>
 
-  <!-- 
-    I'd load the below from one file, 
-      but doing so gives CORS errors when developing locally.
-  
-    I don't want to run a webserver when making edits,
-      so here you go! 
-  -->
-  <script src="./assets/js/web-components/aboutme.js" defer></script>
-  <script src="./assets/js/web-components/blog.js" defer></script>
-  <script src="./assets/js/web-components/contact.js" defer></script>
-  <script src="./assets/js/web-components/cv.js" defer></script>
-  <script src="./assets/js/web-components/sections.js" defer></script>
+  <script src="./assets/js/components.js" defer></script>
 </body>
 </html>
 
