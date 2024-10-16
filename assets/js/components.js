@@ -5,7 +5,7 @@ class AboutMe extends HTMLElement {
 
         const container = document.createElement('div');
         container.innerHTML = `
-                               <p>I'm a software engineer, currently based in Brooklyn, New York.</p>
+                               <p>I'm a software engineer based in Brooklyn, New York.</p>
                                <p>My main interests are in data, machine learning, and platform engineering.</p>`;
 
         const style = document.createElement('style');
