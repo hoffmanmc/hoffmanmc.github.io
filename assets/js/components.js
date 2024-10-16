@@ -4,7 +4,7 @@ class AboutMe extends HTMLElement {
         const shadow = this.attachShadow({ mode: 'open' });
 
         const container = document.createElement('div');
-        container.innerHTML = `<h2>About Me</h2>
+        container.innerHTML = `
                                <p>I'm a software engineer, currently based in Brooklyn, New York.</p>
                                <p>My main interests are in data, machine learning, and platform engineering.</p>`;
 
