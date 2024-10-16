@@ -46,9 +46,9 @@ nav ul li {
 
 #content {
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center;     /* Center vertically */
-    height: 100vh;           /* Ensure content takes full height of viewport */
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
     padding-top: 30px;
 }
 
