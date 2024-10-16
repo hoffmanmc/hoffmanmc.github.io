@@ -88,7 +88,7 @@ class Cv extends HTMLElement {
               <li>Design and implement cloud and data architecture for new data products in Google Cloud.</li>
             </ul>
 
-            <h3>Cloud Engineer, MX Digital Solutions - Self Employed, October 2021-May 2024</h3>
+            <h3>Software Engineer, MX Digital Solutions - Self Employed, October 2021-May 2024</h3>
             <h4>TightShip SEO Consulting:</h4>
             <ul>
               <li>Architect and build new data services for SEO teams. GCP, BigQuery, Python, Airflow, GCS, Looker Studio.</li>
