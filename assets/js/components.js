@@ -78,7 +78,7 @@ class Cv extends HTMLElement {
           <div>
             <h1>Maxwell C. Hoffman</h1>
 
-            <h3>Software Engineer, MX Digital Solutions - Self Employed, October 2021-May 2024</h3>
+            <h3>Software Engineer, MX Digital Solutions - Self Employed, October 2021-Present</h3>
             <h4>TightShip SEO Consulting:</h4>
             <ul>
               <li>Build data ingestion pipelines using Google Cloud Composer (Airflow) processing terabytes of search rank data for clients across US and Canada. Supporting Looker Studio.</li>
