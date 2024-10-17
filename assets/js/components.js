@@ -95,6 +95,12 @@ class Cv extends HTMLElement {
               <li>Develop web scraping pipeline using NodeJS and Playwright.</li>
             </ul>
             
+            <h4>INCworks Studio - New York, New York:</h4>
+            <ul>
+              <li>Develop 3D apartment staging software using Unity, C#, Blender, to export panorama images from project template using pre-built furniture assets.</li>
+              <li>Consult with client on application architecture and image/graphics optimization roadmap.</li>
+            </ul>
+
             <h4>Virginia Commonwealth University - Office of Research Information Systems:</h4>
             <ul>
               <li>Design and implement front-end for in-house Enterprise Research Application.</li>
