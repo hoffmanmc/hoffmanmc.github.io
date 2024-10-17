@@ -78,7 +78,8 @@ class Cv extends HTMLElement {
           <div>
             <h1>Maxwell C. Hoffman</h1>
 
-            <h3>Data Engineer, TightShip SEO Consulting, Aug 2022-Present</h3>
+            <h3>Software Engineer, MX Digital Solutions - Self Employed, October 2021-May 2024</h3>
+            <h4>TightShip SEO Consulting:</h4>
             <ul>
               <li>Build data ingestion pipelines using Google Cloud Composer (Airflow) processing terabytes of search rank data for clients across US and Canada. Supporting Looker Studio.</li>
               <li>Develop custom report ingestion to interface with proprietary web crawling tools, filtering into data lake and data warehouse solutions. Amazon workspaces, batch scripting, Python.</li>
@@ -86,11 +87,6 @@ class Cv extends HTMLElement {
               <li>Oversee storage and retention of data lake and warehouse solutions; design tables, develop SQL scripts for routine and one-off maintenance.</li>
               <li>Create and maintain CI/CD pipelines for current and future infrastructure using GitHub Actions, Terraform, Docker.</li>
               <li>Design and implement cloud and data architecture for new data products in Google Cloud.</li>
-            </ul>
-
-            <h3>Software Engineer, MX Digital Solutions - Self Employed, October 2021-May 2024</h3>
-            <h4>TightShip SEO Consulting:</h4>
-            <ul>
               <li>Architect and build new data services for SEO teams. GCP, BigQuery, Python, Airflow, GCS, Looker Studio.</li>
               <li>Lead development for client-facing REST API using AWS SAM, API Gateway, Lambda, Redshift.</li>
               <li>Maintain client legacy applications in AWS using NodeJS, Python, AWS Redshift, AWS Lambda.</li>
